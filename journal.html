@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nhật ký | DEFENSE</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                DEFENSE
+            </a>
+
+            <nav class="main-nav">
+
+                <a href="index.html">
+                    Trang chủ
+                </a>
+
+                <a href="mechanisms.html">
+                    Cơ chế
+                </a>
+
+                <a href="journal.html" class="active">
+                    Nhật ký
+                </a>
+
+                <a href="research.html">
+                    Nghiên cứu
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="journal-page">
+
+        <!-- HERO -->
+
+        <section class="journal-hero">
+
+            <div class="journal-hero-content">
+
+                <p class="eyebrow">
+                    PERSONAL REFLECTION
+                </p>
+
+                <h1>
+                    Nhật ký phản tư
+                </h1>
+
+                <p class="journal-intro">
+                    Dành một khoảng lặng để nhìn lại cách bạn đã
+                    trải nghiệm, phản ứng và thích nghi trước những
+                    tình huống khó khăn.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRIVACY ================= -->
+
+        <section class="journal-privacy">
+
+            <div class="privacy-icon">
+                🔒
+            </div>
+
+            <div>
+
+                <h3>
+                    Nhật ký của bạn là riêng tư
+                </h3>
+
+                <p>
+                    Nội dung nhật ký được lưu trực tiếp trên thiết bị
+                    và trình duyệt bạn đang sử dụng. DEFENSE không gửi
+                    nội dung phản tư của bạn lên máy chủ.
+                </p>
+
+                <p class="privacy-note">
+                    Nếu bạn xóa dữ liệu trình duyệt hoặc chuyển sang
+                    thiết bị khác, nhật ký có thể không còn khả dụng.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REFLECTION ================= -->
+
+        <section class="journal-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    REFLECT
+                </p>
+
+                <h2>
+                    Viết một điều bạn muốn nhìn lại
+                </h2>
+
+                <p>
+                    Bạn không cần phải xác định mình đang sử dụng
+                    cơ chế phòng vệ nào. Hãy bắt đầu từ một tình huống
+                    cụ thể và quan sát điều đã xảy ra.
+                </p>
+
+            </div>
+
+
+            <form id="journal-form" class="journal-form">
+
+                <!-- TITLE -->
+
+                <div class="form-group">
+
+                    <label for="journal-title">
+                        Tên nhật ký
+                    </label>
+
+                    <input
+                        type="text"
+                        id="journal-title"
+                        name="title"
+                        placeholder="Ví dụ: Sau buổi thuyết trình hôm nay"
+                        maxlength="120"
+                    >
+
+                </div>
+
+
+                <!-- 01 -->
+
+                <div class="reflection-card">
+
+                    <div class="reflection-number">
+                        01
+                    </div>
+
+                    <div class="reflection-content">
+
+                        <label for="situation">
+                            Tình huống
+                        </label>
+
+                        <p class="reflection-description">
+                            Điều gì đã xảy ra?
+                        </p>
+
+                        <textarea
+                            id="situation"
+                            name="situation"
+                            placeholder="Mô tả ngắn gọn tình huống..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 02 -->
+
+                <div class="reflection-card">
+
+                    <div class="reflection-number">
+                        02
+                    </div>
+
+                    <div class="reflection-content">
+
+                        <label for="experience">
+                            Trải nghiệm
+                        </label>
+
+                        <p class="reflection-description">
+                            Tôi đã cảm thấy và suy nghĩ gì?
+                        </p>
+
+                        <textarea
+                            id="experience"
+                            name="experience"
+                            placeholder="Bạn đã cảm thấy gì? Bạn đã nghĩ gì về tình huống đó?"
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 03 -->
+
+                <div class="reflection-card">
+
+                    <div class="reflection-number">
+                        03
+                    </div>
+
+                    <div class="reflection-content">
+
+                        <label for="response">
+                            Phản ứng
+                        </label>
+
+                        <p class="reflection-description">
+                            Tôi đã làm gì hoặc nói gì?
+                        </p>
+
+                        <textarea
+                            id="response"
+                            name="response"
+                            placeholder="Bạn đã phản ứng như thế nào?"
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 04 -->
+
+                <div class="reflection-card">
+
+                    <div class="reflection-number">
+                        04
+                    </div>
+
+                    <div class="reflection-content">
+
+                        <label for="function">
+                            Chức năng
+                        </label>
+
+                        <p class="reflection-description">
+                            Phản ứng đó có thể đã giúp tôi bảo vệ điều gì,
+                            tránh điều gì hoặc kiểm soát điều gì?
+                        </p>
+
+                        <textarea
+                            id="function"
+                            name="function"
+                            placeholder="Hãy thử nhìn lại phản ứng của mình với sự tò mò, thay vì phán xét..."
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 05 -->
+
+                <div class="reflection-card">
+
+                    <div class="reflection-number">
+                        05
+                    </div>
+
+                    <div class="reflection-content">
+
+                        <label for="consequence">
+                            Hệ quả
+                        </label>
+
+                        <p class="reflection-description">
+                            Điều gì xảy ra sau phản ứng đó?
+                        </p>
+
+                        <textarea
+                            id="consequence"
+                            name="consequence"
+                            placeholder="Điều gì thay đổi sau đó? Điều gì có lợi hoặc chưa phù hợp?"
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 06 -->
+
+                <div class="reflection-card">
+
+                    <div class="reflection-number">
+                        06
+                    </div>
+
+                    <div class="reflection-content">
+
+                        <label for="flexibility">
+                            Linh hoạt
+                        </label>
+
+                        <p class="reflection-description">
+                            Nếu tình huống tương tự xảy ra,
+                            tôi có thể thử một cách phản ứng nào khác?
+                        </p>
+
+                        <textarea
+                            id="flexibility"
+                            name="flexibility"
+                            placeholder="Một cách phản ứng khác mà bạn muốn thử..."
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACTIONS -->
+
+                <div class="journal-actions">
+
+                    <button
+                        type="submit"
+                        class="primary-button"
+                    >
+                        Lưu nhật ký
+                    </button>
+
+                    <button
+                        type="button"
+                        id="clear-form"
+                        class="secondary-button"
+                    >
+                        Xóa nội dung
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- ================= SAVED JOURNALS ================= -->
+
+        <section class="saved-journal-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    MY JOURNAL
+                </p>
+
+                <h2>
+                    Nhật ký đã lưu
+                </h2>
+
+                <p id="journal-count">
+                    Chưa có nhật ký nào.
+                </p>
+
+            </div>
+
+
+            <div id="journal-list" class="journal-list">
+
+                <!-- Nhật ký sẽ được JavaScript tạo ở đây -->
+
+            </div>
+
+
+            <!-- EMPTY STATE -->
+
+            <div
+                id="empty-journal"
+                class="empty-journal"
+            >
+
+                <div class="empty-journal-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Chưa có nhật ký
+                </h3>
+
+                <p>
+                    Những điều bạn viết ở đây sẽ được lưu trên
+                    thiết bị của bạn.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DISCLAIMER ================= -->
+
+        <section class="journal-disclaimer">
+
+            <h3>
+                Một lưu ý quan trọng
+            </h3>
+
+            <p>
+                Nhật ký phản tư được thiết kế cho mục đích
+                tự quan sát và giáo dục tâm lý. Nội dung phản tư
+                không được sử dụng để định lượng, phân loại hoặc
+                chẩn đoán cơ chế phòng vệ tâm lý.
+            </p>
+
+            <p>
+                Việc nhận diện và hiểu các cơ chế phòng vệ cần
+                được xem xét trong bối cảnh rộng hơn và không nên
+                được suy luận chỉ từ một trải nghiệm đơn lẻ.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div>
+
+                <div class="footer-logo">
+                    DEFENSE
+                </div>
+
+                <p>
+                    Hiểu cách tâm trí tự bảo vệ mình.
+                </p>
+
+            </div>
+
+            <div class="footer-note">
+
+                <p>
+                    Một sản phẩm ứng dụng từ nghiên cứu
+                    về các cơ chế phòng vệ tâm lý ở sinh viên
+                    Trường Đại học Sài Gòn.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="js/storage.js"></script>
+    <script src="js/journal.js"></script>
+
+</body>
+</html>
