@@ -1,0 +1,201 @@
+{
+  "anticipation": {
+    "vi": "Dự phòng",
+    "en": "Anticipation",
+    "styleVi": "Phong cách phòng vệ trưởng thành",
+    "styleEn": "Mature Defense Style",
+    "mean": 6.34,
+    "sd": 1.65,
+    "rank": 1
+  },
+
+  "suppression": {
+    "vi": "Tự kiềm chế",
+    "en": "Suppression",
+    "styleVi": "Phong cách phòng vệ trưởng thành",
+    "styleEn": "Mature Defense Style",
+    "mean": 5.98,
+    "sd": 1.62,
+    "rank": 2
+  },
+
+  "rationalization": {
+    "vi": "Hợp lý hóa",
+    "en": "Rationalization",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 5.86,
+    "sd": 1.65,
+    "rank": 3
+  },
+
+  "sublimation": {
+    "vi": "Thăng hoa",
+    "en": "Sublimation",
+    "styleVi": "Phong cách phòng vệ trưởng thành",
+    "styleEn": "Mature Defense Style",
+    "mean": 5.64,
+    "sd": 1.75,
+    "rank": 4
+  },
+
+  "humor": {
+    "vi": "Hài hước",
+    "en": "Humor",
+    "styleVi": "Phong cách phòng vệ trưởng thành",
+    "styleEn": "Mature Defense Style",
+    "mean": 5.61,
+    "sd": 1.88,
+    "rank": 5
+  },
+
+  "undoing": {
+    "vi": "Hoàn tác",
+    "en": "Undoing",
+    "styleVi": "Phong cách phòng vệ tâm căn",
+    "styleEn": "Neurotic Defense Style",
+    "mean": 5.48,
+    "sd": 1.77,
+    "rank": 6
+  },
+
+  "pseudo_altruism": {
+    "vi": "Giả vị tha",
+    "en": "Pseudo-Altruism",
+    "styleVi": "Phong cách phòng vệ tâm căn",
+    "styleEn": "Neurotic Defense Style",
+    "mean": 5.39,
+    "sd": 1.65,
+    "rank": 7
+  },
+
+  "somatization": {
+    "vi": "Cơ thể hóa",
+    "en": "Somatization",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 5.29,
+    "sd": 2.04,
+    "rank": 8
+  },
+
+  "splitting": {
+    "vi": "Phân liệt",
+    "en": "Splitting",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 5.27,
+    "sd": 1.99,
+    "rank": 9
+  },
+
+  "idealization": {
+    "vi": "Lý tưởng hóa",
+    "en": "Idealization",
+    "styleVi": "Phong cách phòng vệ tâm căn",
+    "styleEn": "Neurotic Defense Style",
+    "mean": 5.06,
+    "sd": 2.14,
+    "rank": 10
+  },
+
+  "isolation": {
+    "vi": "Cô lập",
+    "en": "Isolation",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 5.02,
+    "sd": 2.09,
+    "rank": 11
+  },
+
+  "displacement": {
+    "vi": "Chuyển di",
+    "en": "Displacement",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 4.98,
+    "sd": 1.76,
+    "rank": 12
+  },
+
+  "reaction_formation": {
+    "vi": "Hình thành phản ứng ngược",
+    "en": "Reaction Formation",
+    "styleVi": "Phong cách phòng vệ tâm căn",
+    "styleEn": "Neurotic Defense Style",
+    "mean": 4.80,
+    "sd": 1.56,
+    "rank": 13
+  },
+
+  "acting_out": {
+    "vi": "Hành động hóa",
+    "en": "Acting Out",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 4.66,
+    "sd": 2.12,
+    "rank": 14
+  },
+
+  "devaluation": {
+    "vi": "Tuyệt đối hóa – làm mất giá trị",
+    "en": "Devaluation",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 4.58,
+    "sd": 1.63,
+    "rank": 15
+  },
+
+  "autistic_fantasy": {
+    "vi": "Huyễn tưởng",
+    "en": "Autistic Fantasy",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 4.36,
+    "sd": 2.28,
+    "rank": 16
+  },
+
+  "passive_aggression": {
+    "vi": "Gây hấn bị động",
+    "en": "Passive Aggression",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 4.29,
+    "sd": 1.74,
+    "rank": 17
+  },
+
+  "projection": {
+    "vi": "Phóng chiếu",
+    "en": "Projection",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 4.11,
+    "sd": 1.84,
+    "rank": 18
+  },
+
+  "dissociation": {
+    "vi": "Phân ly",
+    "en": "Dissociation",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 3.60,
+    "sd": 1.84,
+    "rank": 19
+  },
+
+  "denial": {
+    "vi": "Phủ nhận",
+    "en": "Denial",
+    "styleVi": "Phong cách phòng vệ chưa trưởng thành",
+    "styleEn": "Immature Defense Style",
+    "mean": 3.58,
+    "sd": 1.79,
+    "rank": 20
+  }
+}
